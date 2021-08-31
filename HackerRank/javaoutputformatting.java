@@ -28,19 +28,23 @@ python         050
 Explanation
 
 Each String is left-justified with trailing whitespace through the first 15 characters. The leading digit of the integer is the 16th  character, and each integer that was less than 3 digits now has leading zeroes.*/
-import java.util.Scanner;
-
 public class Solution {
 
     public static void main(String[] args) {
-            Scanner sc=new Scanner(System.in);
-            System.out.println("================================");
-            for(int i=0;i<3;i++){
-                String s1=sc.next();
-                int x=sc.nextInt();
-                //Complete this line
-            }
-            System.out.println("================================");
+               Scanner in  = new Scanner(System.in);
+        int i = 0;
+        String s = "";
+        int a;
+        System.out.println("================================");
+        while(i < 3){
+            s = in.next();
+            a = in.nextInt();
+
+            System.out.printf( "%-15s%03d\n", s, a);
+
+            i++;
+        }
+        System.out.println("================================");
 
     }
 }
