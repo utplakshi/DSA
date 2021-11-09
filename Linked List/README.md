@@ -21,3 +21,29 @@ Linked lists are among the simplest and most common data structures. The princip
    * Inserting/deleting are easier  
    * Applications where sequential access is required.
    * In situations where the number of elements cannot be predicted beforehand, so no memory wastage
+
+## Usage/Examples in java
+
+```java
+// A Linked List Node
+class Node
+{
+    int data;
+    Node next;
+ 
+    // constructor
+    Node(int data, Node next)
+    {
+        this.data = data;
+        this.next = next;
+    }
+}
+```
+
+
+## Acknowledgements
+
+ - [Techiedelight](https://www.techiedelight.com/linked-list-implementation-java/)
+ - [Geeksforgeeks](https://www.geeksforgeeks.org/data-structures/linked-list/)
+
+
