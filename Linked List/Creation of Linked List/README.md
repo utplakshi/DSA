@@ -119,8 +119,11 @@ class Main
 ```
 # Return Head Node Method
 The standard solution adds a single node to the head end of any list. This function is called push() since we are adding the link to the head end, making a list look a bit like a stack.
+
 ![Logo](https://github.com/utplakshi/DSA/blob/main/Linked%20List/Creation%20of%20Linked%20List/Photos/ReturnHead.png?raw=true)
+
 This is demonstrated below, where we return the head node from the push() function and update the head in the caller.
+
 ```java
 // A Linked List Node
 class Node
