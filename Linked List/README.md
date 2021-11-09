@@ -23,7 +23,7 @@ Linked lists are among the simplest and most common data structures. The princip
    * In situations where the number of elements cannot be predicted beforehand, so no memory wastage
 
 ## Usage/Examples in java
-
+#### Creation of Node
 ```java
 // A Linked List Node
 class Node
@@ -39,7 +39,20 @@ class Node
     }
 }
 ```
-
+#### Helper Function
+```java
+  // Helper function to print a given linked list
+    public static void printList(Node head)
+    {
+        Node ptr = head;
+        while (ptr != null)
+        {
+            System.out.print(ptr.data + " —> ");
+            ptr = ptr.next;
+        }
+        System.out.println("null");
+    }
+```
 
 ## Acknowledgements
 
