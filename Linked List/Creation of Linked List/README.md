@@ -117,6 +117,7 @@ class Main
     }
 }
 ```
+
 # Return Head Node Method
 The standard solution adds a single node to the head end of any list. This function is called push() since we are adding the link to the head end, making a list look a bit like a stack.
 
@@ -189,6 +190,7 @@ class Main
     }
 }
 ```
+
 # Make head reference global
 We can construct a linked list by making the head reference global, but this approach is not recommended since global variables are usually considered bad practice.
 
