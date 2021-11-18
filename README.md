@@ -1,5 +1,4 @@
-This is a repository for my practice of DSA
-Language Used: Java
+This is a repository for my practice of DSA in java
 The resources I will be using are:
 1) https://www.geeksforgeeks.org/
 2) https://prepinsta.com/data-structures/
