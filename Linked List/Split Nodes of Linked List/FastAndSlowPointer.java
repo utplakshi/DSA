@@ -6,6 +6,7 @@ class Node{
         this.next=next;
     }
 }
+//Main class for fast and slow
 public class FastAndSlow{
     public static void printList(String msg, Node head){
       System.out.print(msg);
